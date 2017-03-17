@@ -4,7 +4,7 @@ require('dotenv').config()
 const port = process.env.PORT||5050
 
 app.use((req,res)=>{
-    res.send('hello from nodemon')
+    res.send('hello from nodemon now CD')
 })
 app.listen(5050, ()=>{
     console.log('The magic is happening at port 5050')
