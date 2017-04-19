@@ -10,6 +10,11 @@ const list = new Schema({
         type: String,
         required: true
     },
+    type: {
+        type: String,
+        enum: ['Shopping List', 'Wishlist'],
+        required: true
+    },
     category: {
         type: String,
         enum: ['Fashion', 'Beauty', 'Sports', 'Music', 'Movies/TV', 'Games', 'Books', 'Groceries', 'Other'],

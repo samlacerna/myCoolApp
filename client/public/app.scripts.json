@@ -1,0 +1,21 @@
+{
+    "chunks":{
+        "vendor": [
+            "jquery",
+            "bootstrap",
+            "angular",
+            "angular-ui-router"
+        ],
+        "vendor.ui":[
+
+        ],
+        "vendor.datatables": [],
+        "vendor.graphs": []
+    },
+    "paths":{
+        "jquery": "client/libs/jquery/dist/jquery.min.js",
+        "bootstrap": "client/libs/bootstrap/dist/js/bootstrap.min.js",
+        "angular": "client/libs/angular/angular.min.js",
+        "angular-ui-router": "client/libs/angular-ui-router/release/angular-ui-router.min.js"
+    }
+}

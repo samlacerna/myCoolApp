@@ -26,6 +26,10 @@ function usersService(options) {
         return user.save()
     }
 
+    // function insertListById(doc){
+    //     let list = 
+    // }
+
     function getOne(queryCondition) {
         return User.findOne(queryCondition)
     }

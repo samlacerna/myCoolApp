@@ -11,7 +11,6 @@ const item = new Schema({
     },
     link: {
         type: String,
-        required: true
     },
     item_picture: {
         type: String

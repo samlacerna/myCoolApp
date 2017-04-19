@@ -1,11 +1,12 @@
 const router = require('express').Router()
 const usersRoutes = require('./user.routes')
 const listsRoutes = require('./list.routes')
+const itemRoutes = require('./item.routes')
 
 // register routes ===========================================================================
 router.use('/api/users', usersRoutes)
 router.use('/api/lists', listsRoutes)
-
+router.use('/api/items', itemRoutes)
 //Handle API 404
 router.use('/api/*', function (req, res, next) {
     res.sendStatus(404)

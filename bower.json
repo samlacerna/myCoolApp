@@ -1,0 +1,19 @@
+{
+  "name": "my-cool-app",
+  "description": "This is my CRUD app",
+  "main": "server.js",
+  "authors": [
+    "Sam Lacerna"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/samlacerna/myCoolApp",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ]
+}
